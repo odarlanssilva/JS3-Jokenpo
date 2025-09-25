@@ -1,4 +1,4 @@
-<t1> Jokenpô contra a máquina "Alexa" </t1>
+<h1> Jokenpô contra a máquina "Alexa" </h1>
 <br>
 <br>
 <p> Nesse projeto o jogador escolhe uma das três opções (&#9994, &#128400 e &#9996) e em seguida a máquina faz sua escolha aleatória.</p>
