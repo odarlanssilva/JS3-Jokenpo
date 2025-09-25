@@ -40,7 +40,20 @@ body{
     margin-top: 30px;
     display: flex;
     gap: 20px;
+    align-items: center;
 }
+.player{
+    display: flex;
+     gap: 5px;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    font-size: 50px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+}
+
 button {
     padding: 10px;
     font-size: 70px;
@@ -87,4 +100,15 @@ p{
 .machine-score span {
     color: #e66022;
     font-weight: bolder;
+}
+
+#reset{
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    background-color: #02f5fd;
+    color: #000000;
 }

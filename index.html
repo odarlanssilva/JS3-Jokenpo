@@ -10,30 +10,40 @@
 </head>
 
 <body>
-     <!-- Vídeo em loop no background -->
-  <video autoplay muted loop playsinline class="video-background">
-    <source src="https://static.videezy.com/system/resources/previews/000/007/313/original/Plexus.mp4" type="video/mp4">
-    Seu navegador não suporta vídeo em HTML5.
-  </video>
+    <!-- Vídeo em loop no background -->
+    <video autoplay muted loop playsinline class="video-background">
+        <source src="https://static.videezy.com/system/resources/previews/000/007/313/original/Plexus.mp4"
+            type="video/mp4">
+        Seu navegador não suporta vídeo em HTML5.
+    </video>
 
     <div class="container">
         <h1>Jokenpô</h1>
         <div class="game">
-            <div class="player">
-                <div class="choices">
-                    <button id="rock" onclick="playHuman('rock')"> &#9994 </button>
-                    <button id="paper" onclick="playHuman('paper')"> &#128400 </button>
-                    <button id="scissors" onclick="playHuman('scissors')"> &#9996 </button>
-                </div>
 
-                <div>
-                    <h2>Resultado</h2>
-                    <p class="result-message">Faça sua jogada!</p>
-                    <p class="your-score">Sua pontuação: <span>0</span> </p>
-                    <p class="machine-score">Pontuação da Alexa: <span>0</span> </p>
+            <div class="choices">
+                <button id="rock" onclick="playHuman('rock')"> &#9994 </button>
+                <button id="paper" onclick="playHuman('paper')"> &#128400 </button>
+                <button id="scissors" onclick="playHuman('scissors')"> &#9996 </button>
+            </div>
+            <div class="player">
+                <div> &#129492 </div>
+                <div id="your-choice"> &#10067 </div>
+                <div>&#127386</div>
+                <div id="alexa-choice"> &#10067 </div>
+                <div> &#129302 </div>
+            </div>
+            <div>
+                <h2>Resultado</h2>
+                <p class="result-message">Faça sua jogada!</p>
+                <p class="your-score">Sua pontuação: <span>0</span> </p>
+                <p class="machine-score">Pontuação da Alexa: <span>0</span> </p>
+            </div>
+            <div>
+                <button id="reset" onclick="resetGame()">Reiniciar Jogo</button>
             </div>
 
-        </div>
+
 
 
 </body>
